@@ -8,4 +8,5 @@
 if (isset($_POST['dream'])) {
     echo "<p>Contenu du rêve : " . $_POST['dream'] . "</p>";
 }
+include './functions/request.php'
 ?>
