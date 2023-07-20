@@ -7,8 +7,8 @@
 <?php
 if (isset($_POST['dream'])) {
     include './functions/request.php';
+    echo "<p>$_POST(['dream'])</p>";
     $answer = getDreamMeaning($_POST(['dream']));
     echo "<p>Voici la signification de votre rêve : " . $answer . "</p>";
 }
-
 ?>

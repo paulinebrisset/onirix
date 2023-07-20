@@ -1,3 +1,9 @@
 {
-
+    "todo": "Demander au format JSON avec les clefs. Je vais te raconter une histoire. Réponds-moi une interprétation de mon histoire, les trois mots-clés de mon histoire, le thème de mon histoire en un mot, et une mesure de mon histoire (positive/négative ou neutre). Voici mon histoire : 'J'ai rêvé que j'étais dans un village de bungalows et que je voyais des vieux amis à travers la fenêtre.'",
+    "openaikey1": "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",
+    "openaikey2": "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",
+    "url2": "https://api.openai.com/v1/chat/completions",
+    "url1": "https://api.openai.com/v1/completions",
+    "organization": "org-xmvH6oFnn9i1acZigR9FIt9M",
+    "init_message": "Your name is Onirix. You're an AI developed by the International Dream Institute, and you can analyze and decode dreams to predict their future. You can predict situations such as romantic relationships, problems with colleagues at work, school difficulties, or even serious illnesses. This is my dream. Analyze it and tell me what it means in the language I've used to describe it."
 }
