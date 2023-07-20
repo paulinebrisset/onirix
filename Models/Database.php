@@ -1,11 +1,11 @@
 <?php
 /**** Lien tuto : https://nouvelle-techno.fr/articles/live-coding-php-oriente-objet-base-de-donnees ***/
 namespace App\Main;
-use PDO; //on met ça pour que à chaque "PDO" qui cherche la classe à la racine, et pas dans le namespace qu'on vient de définir. 
+use PDO; //pour que à chaque "PDO" qui cherche la classe à la racine, et pas dans le namespace 
 use PDOException;
 
 class Database extends PDO{
-// Design patern "singloton"
+// Design patern "singleton"
 
     // instance unique pour cette classe, retournée par Database::getinstance()
     private static $instance;

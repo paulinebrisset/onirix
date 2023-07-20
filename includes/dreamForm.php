@@ -1,3 +1,8 @@
+<?php
+
+use App\Controllers\Dream;
+$dream = new Dream;
+?>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
     <?php $question = 'Racontez votre rêve à Onirix !'; ?>
     <textarea name="dream" placeholder='<?php echo $question; ?>'></textarea>

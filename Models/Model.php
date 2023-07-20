@@ -8,7 +8,6 @@ class Model extends Database{
     protected $table;
     // Instance de connexion
     private $db;
-
     public function executeRequest(string $sql, array $attributs = null){
         $this->db = Database::getInstance();
         if($attributs !== null){
